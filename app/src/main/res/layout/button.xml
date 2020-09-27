@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bMenu"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/button_selector"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <info.androidhive.fontawesome.FontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_heart_solid"
+        app:solid_icon="true"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:id="@+id/iconTxt"
+        />
+
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</LinearLayout>
